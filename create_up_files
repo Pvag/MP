@@ -1,0 +1,6 @@
+create table up_files (
+ 	file_name VARCHAR(80) NOT NULL,
+ 	file_size FLOAT NOT NULL,
+	file_id INT UNSIGNED AUTO_INCREMENT NOT NULL,
+	PRIMARY KEY (file_id)
+);
